@@ -1,5 +1,21 @@
 # README
 
+learning some ruby and ruby on rails.
+
+following along with the [getting started guide](https://guides.rubyonrails.org/getting_started.html)
+
+create a new directory called _blog_
+_$_ rails new blog
+
+check it out!
+_$_ cd blog
+
+start the web server
+_$_ bin/rails server
+
+
+#### default ruby stuff...
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
