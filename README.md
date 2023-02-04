@@ -13,6 +13,10 @@ _$_ cd blog
 start the web server
 _$_ bin/rails server
 
+run model generator
+_$_ bin/rails generate model Article title:string body:text
+
+#### paused at section 6.2 Database Migrations
 
 #### default ruby stuff...
 
