@@ -16,6 +16,17 @@ _$_ bin/rails server
 run model generator
 _$_ bin/rails generate model Article title:string body:text
 
+run the migration
+_$_ bin/rails db:migrate
+
+activate the console, similar to the irb, and create an article
+_$_ bin/rails console
+
+_irb_ article = Article.new(title: "Hello Rails", body: "I am on Rails!")
+
+_irb_ article.save
+
+
 #### paused at section 6.2 Database Migrations
 
 #### default ruby stuff...
