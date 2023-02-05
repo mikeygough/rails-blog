@@ -26,8 +26,10 @@ _irb_ article = Article.new(title: "Hello Rails", body: "I am on Rails!")
 
 _irb_ article.save
 
+inspect what routes are mapped
+_$_ bin/rails routes
 
-#### paused at section 6.2 Database Migrations
+
 
 #### default ruby stuff...
 
