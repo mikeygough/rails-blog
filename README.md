@@ -4,6 +4,8 @@ learning some ruby and ruby on rails.
 
 following along with the [getting started guide](https://guides.rubyonrails.org/getting_started.html)
 
+here are the terminal commands run while following this getting started guide:
+
 create a new directory called _blog_
 _$_ rails new blog
 
@@ -13,10 +15,10 @@ _$_ cd blog
 start the web server
 _$_ bin/rails server
 
-run model generator
+run model generator for the article controller
 _$_ bin/rails generate model Article title:string body:text
 
-run the migration
+run the db migration
 _$_ bin/rails db:migrate
 
 activate the console, similar to the irb, and create an article
@@ -29,7 +31,11 @@ _irb_ article.save
 inspect what routes are mapped
 _$_ bin/rails routes
 
+run model generator for the comment controller
+_$_ bin/rails generate model Comment commenter:string body:text article:references
 
+run the db migration
+_$_ bin/rails db:migrate
 
 #### default ruby stuff...
 
