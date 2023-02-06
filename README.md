@@ -15,6 +15,9 @@ _$_ cd blog
 start the web server
 _$_ bin/rails server
 
+generate the articles controller
+_$_ bin/rails generate controller Articles index --skip-routes
+
 run model generator for the article controller
 _$_ bin/rails generate model Article title:string body:text
 
@@ -36,6 +39,10 @@ _$_ bin/rails generate model Comment commenter:string body:text article:referenc
 
 run the db migration
 _$_ bin/rails db:migrate
+
+generate the comments controller
+_$_ bin/rails generate controller Comments
+
 
 #### default ruby stuff...
 
