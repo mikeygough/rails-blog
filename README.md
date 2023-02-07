@@ -43,6 +43,14 @@ _$_ bin/rails db:migrate
 generate the comments controller
 _$_ bin/rails generate controller Comments
 
+run migration to add status to articles and comments
+_$_ bin/rails generate migration AddStatusToArticles status:string
+
+_$_ bin/rails generate migration AddStatusToComments status:string
+
+run the db migration
+_$_ bin/rails db:migrate
+
 
 #### default ruby stuff...
 
