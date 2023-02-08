@@ -1,8 +1,6 @@
 # README
 
-learning some ruby and ruby on rails.
-
-following along with the [getting started guide](https://guides.rubyonrails.org/getting_started.html)
+learning some ruby and ruby on rails by following along with the [getting started guide](https://guides.rubyonrails.org/getting_started.html)
 
 here are the terminal commands run while following this getting started guide:
 
@@ -52,27 +50,8 @@ run the db migration
 _$_ bin/rails db:migrate
 
 
-#### default ruby stuff...
+#### helpful rails resources:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* [ruby on rails guides guidelines](https://guides.rubyonrails.org/ruby_on_rails_guides_guidelines.html)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* [ruby on rails guides](https://guides.rubyonrails.org/index.html)
